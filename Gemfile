@@ -10,6 +10,8 @@ gem 'bootstrap-will_paginate','0.0.5'
 
 gem 'autoprefixer-rails'
 
+gem 'bcrypt-ruby', '3.1.2'
+
 
 gem 'sprockets', '2.11.0'
 # Use sqlite3 as the database for Active Record
