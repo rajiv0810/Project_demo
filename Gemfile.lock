@@ -47,6 +47,9 @@ GEM
       sass (~> 3.2)
     bootstrap-will_paginate (0.0.5)
       will_paginate
+    bourbon (4.2.3)
+      sass (~> 3.4)
+      thor
     builder (3.2.2)
     capybara (2.1.0)
       mime-types (>= 1.16)
@@ -74,6 +77,11 @@ GEM
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.5.2)
+    factory_girl (4.2.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.2.0)
+      factory_girl (~> 4.2.0)
+      railties (>= 3.0.0)
     ffi (1.9.10)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
@@ -203,11 +211,14 @@ DEPENDENCIES
   bcrypt-ruby (= 3.1.2)
   bootstrap-sass (= 2.3.2.0)
   bootstrap-will_paginate (= 0.0.5)
+  bourbon
   capybara (= 2.1.0)
   coffee-rails (~> 4.1.0)
   debugger
+  factory_girl_rails (= 4.2.0)
   jbuilder (~> 2.0)
   jquery-rails
+  minitest
   pg (= 0.15.1)
   rails (= 4.2.1)
   rails_12factor (= 0.0.2)
